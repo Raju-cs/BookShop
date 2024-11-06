@@ -1,0 +1,7 @@
+D:\Projects\BookApp\BookAppWeb\obj\Debug\net8.0\BookAppWeb.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\BookApp\BookAppWeb\obj\Debug\net8.0\BookAppWeb.AssemblyInfoInputs.cache
+D:\Projects\BookApp\BookAppWeb\obj\Debug\net8.0\BookAppWeb.AssemblyInfo.cs
+D:\Projects\BookApp\BookAppWeb\obj\Debug\net8.0\BookAppWeb.csproj.CoreCompileInputs.cache
+D:\Projects\BookApp\BookAppWeb\obj\Debug\net8.0\BookAppWeb.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\BookApp\BookAppWeb\obj\Debug\net8.0\BookAppWeb.RazorAssemblyInfo.cache
+D:\Projects\BookApp\BookAppWeb\obj\Debug\net8.0\BookAppWeb.RazorAssemblyInfo.cs

@@ -511,6 +511,10 @@ D:\Projects\BookApp\BookAppWeb\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\
 D:\Projects\BookApp\BookAppWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
 D:\Projects\BookApp\BookAppWeb\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Projects\BookApp\BookAppWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Projects\BookApp\BookAppWeb\bin\Debug\net6.0\BookApp.DataAccess.dll
+D:\Projects\BookApp\BookAppWeb\bin\Debug\net6.0\BookApp.Models.dll
+D:\Projects\BookApp\BookAppWeb\bin\Debug\net6.0\BookApp.DataAccess.pdb
+D:\Projects\BookApp\BookAppWeb\bin\Debug\net6.0\BookApp.Models.pdb
 D:\Projects\BookApp\BookAppWeb\obj\Debug\net6.0\BookAppWeb.csproj.AssemblyReference.cache
 D:\Projects\BookApp\BookAppWeb\obj\Debug\net6.0\BookAppWeb.GeneratedMSBuildEditorConfig.editorconfig
 D:\Projects\BookApp\BookAppWeb\obj\Debug\net6.0\BookAppWeb.AssemblyInfoInputs.cache
@@ -520,6 +524,7 @@ D:\Projects\BookApp\BookAppWeb\obj\Debug\net6.0\BookAppWeb.MvcApplicationPartsAs
 D:\Projects\BookApp\BookAppWeb\obj\Debug\net6.0\BookAppWeb.MvcApplicationPartsAssemblyInfo.cache
 D:\Projects\BookApp\BookAppWeb\obj\Debug\net6.0\BookAppWeb.RazorAssemblyInfo.cache
 D:\Projects\BookApp\BookAppWeb\obj\Debug\net6.0\BookAppWeb.RazorAssemblyInfo.cs
+D:\Projects\BookApp\BookAppWeb\obj\Debug\net6.0\BookAppWeb.sourcelink.json
 D:\Projects\BookApp\BookAppWeb\obj\Debug\net6.0\staticwebassets.build.json
 D:\Projects\BookApp\BookAppWeb\obj\Debug\net6.0\staticwebassets.development.json
 D:\Projects\BookApp\BookAppWeb\obj\Debug\net6.0\staticwebassets\msbuild.BookAppWeb.Microsoft.AspNetCore.StaticWebAssets.props

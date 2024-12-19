@@ -4,6 +4,146 @@
     "D:\\Projects\\BookApp\\BookAppWeb\\BookAppWeb.csproj": {}
   },
   "projects": {
+    "D:\\Projects\\BookApp\\BookApp.DataAccess\\BookApp.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\BookApp\\BookApp.DataAccess\\BookApp.DataAccess.csproj",
+        "projectName": "BookApp.DataAccess",
+        "projectPath": "D:\\Projects\\BookApp\\BookApp.DataAccess\\BookApp.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\raju\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\BookApp\\BookApp.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\raju\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\BookApp\\BookApp.Models\\BookApp.Models.csproj": {
+                "projectPath": "D:\\Projects\\BookApp\\BookApp.Models\\BookApp.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\BookApp\\BookApp.Models\\BookApp.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\BookApp\\BookApp.Models\\BookApp.Models.csproj",
+        "projectName": "BookApp.Models",
+        "projectPath": "D:\\Projects\\BookApp\\BookApp.Models\\BookApp.Models.csproj",
+        "packagesPath": "C:\\Users\\raju\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\BookApp\\BookApp.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\raju\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Projects\\BookApp\\BookAppWeb\\BookAppWeb.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -28,7 +168,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Projects\\BookApp\\BookApp.DataAccess\\BookApp.DataAccess.csproj": {
+                "projectPath": "D:\\Projects\\BookApp\\BookApp.DataAccess\\BookApp.DataAccess.csproj"
+              },
+              "D:\\Projects\\BookApp\\BookApp.Models\\BookApp.Models.csproj": {
+                "projectPath": "D:\\Projects\\BookApp\\BookApp.Models\\BookApp.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -1,5 +1,5 @@
-﻿using BookAppWeb.Data;
-using BookAppWeb.Models;
+﻿using BookApp.DataAccess;
+using BookApp.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookAppWeb.Controllers
@@ -53,16 +53,15 @@ namespace BookAppWeb.Controllers
                 return NotFound();
             }
 
-            var categoryFromDB = _db.Categories.Find(id);
-            //var categoryFromDbFirst = _db.Categories.FirstOrDefault(c=> c.Id ==  id);
-            //var categoryFromSingle = _db.Categories.SingleOrDefault(c=> c.Id == id);
+           // var categoryFromDB = _db.Categories.Find(id);
+            var categoryFromDbFirst = _db.Categories.FirstOrDefault(c=> c.Id ==  id);
 
-            if(categoryFromDB == null)
+            if (categoryFromDbFirst == null)
             {
                 return NotFound();
             }
 
-            return View(categoryFromDB);
+            return View(categoryFromDbFirst);
         }
 
         [HttpPost]

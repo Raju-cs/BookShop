@@ -3659,6 +3659,32 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "BookApp.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BookApp.Models": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.2",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.2"
+        },
+        "compile": {
+          "bin/placeholder/BookApp.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookApp.DataAccess.dll": {}
+        }
+      },
+      "BookApp.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BookApp.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookApp.Models.dll": {}
+        }
       }
     }
   },
@@ -10410,10 +10436,22 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "BookApp.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../BookApp.DataAccess/BookApp.DataAccess.csproj",
+      "msbuildProject": "../BookApp.DataAccess/BookApp.DataAccess.csproj"
+    },
+    "BookApp.Models/1.0.0": {
+      "type": "project",
+      "path": "../BookApp.Models/BookApp.Models.csproj",
+      "msbuildProject": "../BookApp.Models/BookApp.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BookApp.DataAccess >= 1.0.0",
+      "BookApp.Models >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 6.0.2",
       "Microsoft.EntityFrameworkCore >= 6.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.2",
@@ -10448,7 +10486,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Projects\\BookApp\\BookApp.DataAccess\\BookApp.DataAccess.csproj": {
+              "projectPath": "D:\\Projects\\BookApp\\BookApp.DataAccess\\BookApp.DataAccess.csproj"
+            },
+            "D:\\Projects\\BookApp\\BookApp.Models\\BookApp.Models.csproj": {
+              "projectPath": "D:\\Projects\\BookApp\\BookApp.Models\\BookApp.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
